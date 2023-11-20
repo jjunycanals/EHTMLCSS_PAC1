@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,OAAO;AACb,QAAQ,GAAG,CAAC,CAAC,MAAM,EAAE,KAAK,CAAC","sources":["src/index.js"],"sourcesContent":["const name = 'world';\r\nconsole.log(`Hello ${name}`);"],"names":[],"version":3,"file":"index.579125c3.js.map","sourceRoot":"/__parcel_source_root/"}
