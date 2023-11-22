@@ -28,7 +28,7 @@
   },
   "name": "pac1",
   "version": "1.0.0",
-  "source": "src/index.html",
+  "source": "src/main.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "keywords": [],
   "author": "Jordi Juny",
