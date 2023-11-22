@@ -16,7 +16,7 @@ function printCat() {
                             <div class="cat-body">
                                 <span>${element.data}</span>
                                 <h2>${element.titol}</h2>
-                                <a href="" class="cat-link">Més informació</a>
+                                <a href="detail.html?id=${i}" id="${i}" class="cat-link">Més informació</a>
                             </div>
                         </article>
                     `;
@@ -26,5 +26,5 @@ function printCat() {
         .catch(e => console.log(e))
 }
 
-
 document.addEventListener('DOMContentLoaded', () => {printCat();});
+

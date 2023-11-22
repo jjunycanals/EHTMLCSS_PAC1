@@ -7,16 +7,23 @@
     <title>Category</title>
     <link rel="stylesheet" href="styles.css">
     <script src="./data/category.json"></script>
+    <include src="detailCategory.html"></include>
 </head>
 <body>
-    <nav><script src="app.js"></script></nav>
+    <nav>
+        <h1 class="title-header">Suits</h1>
+        <div class="nav">
+            <ul>
+                <div id="nav"><script type="module" src="./nav.js"></script></div>
+            </ul>
+        </div>
+    </nav>
     <main>
         <h1>Category</h1>
         <section class="cat-list">
             <div class="content" id="grid-cat">
                <script src="category.js"></script>
             </div>
-
         </section>
     </main>
     <footer></footer>
