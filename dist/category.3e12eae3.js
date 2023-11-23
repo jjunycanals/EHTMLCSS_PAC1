@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded",()=>{!function(){let a=document.getElementById("grid-cat");fetch("./data/category.json").then(a=>a.json()).then(t=>{var e=0;a&&t.forEach(t=>{e+=1,a.innerHTML+=`
+document.addEventListener("DOMContentLoaded",()=>{!function(){let a=document.getElementById("grid-cat");fetch("./data/category.js").then(a=>a.json()).then(t=>{var e=0;a&&t.forEach(t=>{e+=1,a.innerHTML+=`
                         <article class="category">
                             <div class="cat-header">
                                 <span>${e}</span>

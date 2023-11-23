@@ -10,7 +10,6 @@ function printDetail() {
                     // obtenir l'id de la categoria de la URL
                     const urlParams = new URLSearchParams(window.location.search);
                     const id = urlParams.get('id');
-                    console.log(i);
                     if (i == id) {
                         content.innerHTML += `
                             <header>

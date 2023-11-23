@@ -312,21 +312,25 @@ h1 {
 }
 .detail{
   display: flex;
-  
+  min-height: 500px;
 }
 .detail-photo {
   max-width: 100%;
-  width: 20%;
+  width: auto;
   height: auto;
   padding: 3%;
 
 }
 .detail-text {
   overflow: hidden;
-  margin: 2%;
-  flex: 100px;
+  margin: 3%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   align-items: center;
-  justify-content: space-around;
+  text-align: justify;
+}
+@media (max-width: 1080px) {
+  .detail {
+    display: block;
+  }
 }
