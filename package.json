@@ -23,12 +23,11 @@
     "start": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel",
-    "parcel:build": "parcel build",
+    "parcel:build": "parcel build src/main.html src/category.html src/content.html src/detail.html src/links.html",
     "clean": "rimraf dist .parcel-cache"
   },
   "name": "pac1",
   "version": "1.0.0",
-  "source": "src/main.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "keywords": [],
   "author": "Jordi Juny",
