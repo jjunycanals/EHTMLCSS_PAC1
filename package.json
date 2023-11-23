@@ -23,7 +23,7 @@
     "start": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel",
-    "parcel:build": "parcel build src/main.html src/category.html src/content.html src/detail.html src/links.html src/js/*.js src/data/*.json src/img/*.jpg src/img/*.png",
+    "parcel:build": "parcel build src/index.html src/main.html src/category.html src/content.html src/detail.html src/links.html src/js/*.js src/data/*.js src/img/*.jpg src/img/*.png",
     "clean": "rimraf dist .parcel-cache"
   },
   "name": "pac1",
