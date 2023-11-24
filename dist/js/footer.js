@@ -22,8 +22,8 @@ document.getElementById("foot").innerHTML=`
         <li><a href="#">Contact us</a></li>
     </ul>
 </div>
-<div class="pay">
-    <h4>Seasons</h4>
+<div class="sub">
+    <h4>Subscriptions</h4>
     <ul>
         <li><a href="#">Patreon</a> </li>
         <li><a href="#">Netflix subscription</a></li>

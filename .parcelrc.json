@@ -1,0 +1,17 @@
+{
+    "entries": [ 
+      "src/index.html",
+      "src/main.html",
+      "src/category.html",
+      "src/content.html",
+      "src/detail.html",
+      "src/links.html",
+      "src/js/*.js",
+      "src/data/*.json",
+      "src/img/*.jpg",
+      "src/img/*.png"
+    ],
+    "transformers": {
+      "*.json": ["@parcel/transformer-json"]
+    }
+  }

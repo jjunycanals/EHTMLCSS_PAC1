@@ -10,7 +10,7 @@ function printCat() {
             content.innerHTML += `
                 <article class="category">
                     <div class="cat-header">
-                        <span>${i}</span>
+                        <span class="button">${element.categoria}</span>
                         <div class="cat-img"><img src="./img/${element.detall.multimedia}" alt="${element.titol}"></div>
                     </div>
                     <div class="cat-body">
