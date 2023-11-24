@@ -38,11 +38,11 @@ function printDetail() {
                     </section>
                     <section class="detail">
                         <div class="video">
-                            <iframe src="${element.detall.video}" frameborder="0"></iframe>
-                            <p>Video author:  </p>
+                            <iframe src="${element.detall.video}" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <p>Video author: <a src="${element.detall.authorvideo}">${element.detall.authorname}</a>  </p>
                         </div>
                         <div class="related">
-                            <h3>Informació relacionada de la mateixa categoria<h3>
+                            <h3>Related content of the same category<h3>
                             <ul>
                                 ${relatedCategories(element, i)}
                             </ul>
