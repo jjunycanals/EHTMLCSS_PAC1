@@ -1,4 +1,5 @@
 var nav = document.getElementById('nav');
+var logo = document.getElementById('logo');
 var currentPage = getCurrentPageName();
 
 nav.innerHTML = `
@@ -13,3 +14,8 @@ function getCurrentPageName() {
     var pathArray = window.location.pathname.split('/');
     return pathArray[pathArray.length - 1];
 }
+
+logo.innerHTML = `
+<a href="index.html" class="log"><img src="../img/logo2.jpg" title="Logo de suites" alt="Logo amb una corbata en blanc i negre"></a>
+<h1 class="title-header"><a href="index.html">Suits <i>Addiction</i></a></h1>
+`;
