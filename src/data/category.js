@@ -47,8 +47,8 @@ const category =
       "detall": {
         "text": "Louis Litt takes center stage in this episode, defending justice with surprising passion. Accompanied by Katrina Bennett, portrayed by Amanda Schull, Louis delivers a memorable performance that highlights the dynamics of the Zane Specter Litt Wheeler Williams law firm. The episode emphasizes his character's evolution and contribution to the overall plot of the series. <br><br> Louis Litt's charismatic presence adds a unique flavor to the legal drama, and viewers witness his journey from a supporting character to a pivotal force in the storyline. The nuanced portrayal by Rick Hoffman captures the essence of Louis Litt's complexity, making him a fan-favorite character. <br><br> As the episode unfolds, Louis tackles legal challenges with wit and determination, showcasing the resilience that defines his character throughout the series.",
         "llistat": ["Evolution of Louis Litt's character", "Rick Hoffman's nuanced portrayal", "Louis's resilience in facing legal challenges"],
-        "multimedia": "boss281x375.png",
-        "sizemultimedia" : ["boss350x467.png","boss562x750.png","boss843x1125.png"],
+        "multimedia": "boss350x467.png",
+        "sizemultimedia" : ["boss350x467.png","boss400x534.png","boss562x750.png"],
         "video": "https://www.youtube.com/embed/mP9pDwEptTo",
         "authorvideo": "https://www.youtube.com/@motivacionyliderazgoparaau1366",
         "authorname": "@motivacionyliderazgoparaau1366"
@@ -137,8 +137,8 @@ const category =
     "detall": {
       "text": "In a star-studded event in the heart of New York City, Harvey Specter, portrayed by the charismatic Gabriel Macht, received the prestigious Legal Eagle Award. The ceremony, attended by legal luminaries and celebrities alike, honored Specter for his outstanding contributions to the legal profession. <br><br> Specter's acceptance speech, filled with wit and charm, left the audience in awe. The scene captured the essence of the character, blending legal prowess with a touch of humor. The award not only recognized Specter's fictional achievements but also celebrated the enduring impact of the SUITS series on legal drama enthusiasts worldwide.",
       "llistat": ["Harvey Specter honored with Legal Eagle Award", "Star-studded ceremony in NYC", "Impact of SUITS on legal drama"],
-      "multimedia": "boss281x375.png",
-      "sizemultimedia" : ["boss281x375.png","boss562x750.png","boss843x1125.png","boss1124x1500.png"],
+      "multimedia": "boss350x467.png",
+      "sizemultimedia" : ["boss350x467.png","boss400x534.png","boss562x750.png"],
       "video": "https://www.youtube.com/embed/MJeSm2t8v1o",
       "authorvideo": "https://www.youtube.com/@motivacionyliderazgoparaau1366",
       "authorname": "@motivacionyliderazgoparaau1366"
