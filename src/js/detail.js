@@ -24,7 +24,11 @@ function printDetail() {
                     <section class="detail">  
                         <div class="detail-photo">
                             <figure>
-                                <img class="detail-img" src="./img/${element.detall.multimedia}" alt="${element.data}">
+                                <picture>
+                                    <source media="(max-width: 600px)" srcset="./img/${element.detall.sizemultimedia[0]}" />
+                                    <source media="(max-width: 900px)" srcset="./img/${element.detall.sizemultimedia[1]}" />
+                                    <img class="detail-img" src="./img/${element.detall.sizemultimedia[2]}" alt="${element.data}" title="${element.titol}">
+                                </picture>
                                 <figcaption>${element.lloc}</figcaption>
                             </figure>
                         </div>

@@ -1,3 +1,10 @@
+#PAC 2
+Les mateixes instruccions que al PAC1.
+Enllaç de GIT: https://github.com/jjunycanals/EHTMLCSS_PAC1.git
+Enllaç de Web: https://thriving-rolypoly-1c75c7.netlify.app/
+
+
+#PAC 1
 Login UOC : jjunyc 
 Nom i cognoms de l’alumne: Jordi Juny Canals 
 

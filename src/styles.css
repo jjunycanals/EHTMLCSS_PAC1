@@ -35,14 +35,14 @@ h1 {
 }
 .title-header a {
   text-decoration: none;
-  color: #333;
+  color: var(--secondary-color);
 }
 .nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--secondary-color);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -179,12 +179,40 @@ h1 {
   color: gray;
   transform: translateX(-10px);
 }
+.logo-footer img {
+  width: 50%;
+  height: auto;
+}
 @media (max-width: 600px) {
   .foot {
     grid-template-columns: repeat(1, 1fr);
   }
+  .logo-footer img {
+    width: 20%;
+    height: auto;
+  }
 }
 
+
+/* ANIMATIONS */
+@keyframes circle {
+  from {
+    -webkit-clip-path: circle(0%);
+    clip-path: circle(0%);
+  }
+  to {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
+  }
+}
+@keyframes lefttransition {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 
 
 /* Les personalitzacions index i main compartides per optimitzar codi i no duplicar-lo */
@@ -210,6 +238,10 @@ h1 {
   height: auto;
   margin: 5% 0% 0% 0%;
   max-width: 100%;
+  animation: 3s 1 alternate circle;
+}
+.index-photo:hover{
+  clip-path: circle(50% at 50% 50%);
 }
 .second-content {
   padding: 2% 15%;
@@ -225,6 +257,7 @@ h1 {
   margin: 5rem 0;
   width: 600px;
   height: auto;
+  animation: 3s 1 alternate lefttransition;
 } 
 .index .second-content .rigg {
   margin: 5rem 0 0 0;
@@ -484,7 +517,7 @@ h1 {
 }
 .detail-photo {
   max-width: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
   padding: 3%;
 }
@@ -530,7 +563,14 @@ h1 {
 .related ul li {
   margin: 3%;
 }
-@media (max-width: 1080px) {
+.galery {
+  padding: 5%;
+  margin: 2%;
+}
+.galery img {
+  padding: 5%;
+}
+@media (max-width: 1580px) {
   .detail-sup {
     display:block;
   }
@@ -541,11 +581,26 @@ h1 {
     width: 620px;
     height: 315px;
   }
+  .detail-photo img {
+    max-width: 90%;
+    width: 90%;
+    height: auto;
+    padding: 3%;
+  }
 }
 @media (max-width: 930px) {
   .video iframe {
     width: 420px;
     height: 215px;
+  }
+  .detail-photo img {
+    max-width: 90%;
+    width: 90%;
+    height: auto;
+    padding: 3%;
+  }
+  .galery pictures {
+    padding: 20%;
   }
 }
 @media (max-width: 450px) {

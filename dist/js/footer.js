@@ -1,17 +1,21 @@
 document.getElementById("foot").innerHTML=`
-<div class="temporada">
-    <h4>Seasons</h4>
+<div class="logo-footer">
+    <a href="index.html" class="log">
+        <img    title="Logo de suites" 
+                alt="Logo amb una corbata en blanc i negre"
+                src="../img/logo.svg" 
+                sizes ="(max-width: 500) ../img/logo-footer-small.png 500px, 600w"
+                srcset ="../img/logo-footer-small.png 500w, ../img/logo-footer.png 600w"
+        >
+    </a>
+</div>
+<div class="links">
+    <h4>Page links</h4>
     <ul>
-        <li><a href="#">Temporada 1</a></li>
-        <li><a href="#">Temporada 2</a></li>
-        <li><a href="#">Temporada 3</a></li>
-        <li><a href="#">Temporada 4</a></li>
-        <li><a href="#">Temporada 5</a></li>
-        <li><a href="#">Temporada 6</a></li>
-        <li><a href="#">Temporada 7</a></li>
-        <li><a href="#">Temporada 8</a></li>
-        <li><a href="#">Temporada 9</a></li>
-        <li><a href="#">Temporada 10</a></li>
+        <li><a href="index.html">Cover</a></li>
+        <li><a href="category.html">Category</a></li>
+        <li><a href="main.html">Main Presentation</a></li>
+        <li><a href="links.html">Links</a></li>
     </ul>
 </div>
 <div class="us">
@@ -20,13 +24,6 @@ document.getElementById("foot").innerHTML=`
         <li><a href="#">Legal Notice</a></li>
         <li><a href="#">RGPD</a></li>
         <li><a href="#">Contact us</a></li>
-    </ul>
-</div>
-<div class="sub">
-    <h4>Subscriptions</h4>
-    <ul>
-        <li><a href="#">Patreon</a> </li>
-        <li><a href="#">Netflix subscription</a></li>
     </ul>
 </div>
 `;
