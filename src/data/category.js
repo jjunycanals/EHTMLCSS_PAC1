@@ -119,8 +119,8 @@ const category =
     "detall": {
       "text": "In the virtual realm, Mike Ross, played by Patrick J. Adams, achieved a significant milestone as his fictional legal blog crossed one million subscribers. The online platform, featuring Ross's insights on legal cases and witty commentary, became a digital sensation. <br><br> Fans and legal enthusiasts alike praised the blog for its engaging content and unique perspective on the legal world. The scenes depicting Ross navigating the digital landscape highlighted the evolving role of technology in the legal profession, adding a modern twist to the SUITS narrative.",
       "llistat": ["Mike Ross's legal blog reaches one million subscribers", "Digital sensation in the online legal community", "Exploring technology's role in the legal world"],
-      "multimedia": "mikeross234x350.png",
-      "sizemultimedia" : ["mikeross234x350.png","mike534x800.png","mike1801x2700.png"],
+      "multimedia": "mikee233x350.png",
+      "sizemultimedia" : ["mikee233x350.png","mikee533x800.png","mikee800x1200.png"],
       "video": "https://www.youtube.com/embed/c9CvlWxiQKA",
       "authorvideo": "https://www.youtube.com/@motivacionyliderazgoparaau1366",
       "authorname": "@motivacionyliderazgoparaau1366"
