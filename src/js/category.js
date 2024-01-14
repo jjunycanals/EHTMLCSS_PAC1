@@ -13,6 +13,7 @@ function printCat() {
                         <span class="button">${element.categoria}</span>
                         <div class="cat-img">
                         <img style="width: 300px"
+                            loading="lazy"
                             src="./img/${element.detall.multimedia}" 
                             alt="${element.titol}"
                             sizes ="(max-width: 400px) ./img/${element.detall.sizemultimedia[0]} 400vw,

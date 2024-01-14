@@ -11,7 +11,6 @@ function printDetail() {
         const id = urlParams.get('id');
         if (i == id) {
             var size = element.galery.length;
-            console.log(element.galery[0]);
             if (size === 1) {
                 content.innerHTML += `
                     <h1 class="title-category">More images</h1>
