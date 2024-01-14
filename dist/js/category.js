@@ -4,7 +4,7 @@ var e,a,t,i,o;e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof se
                         <span class="button">${t.categoria}</span>
                         <div class="cat-img">
                         <img style="width: 300px"
-                            
+                            loading="lazy"
                             src="./img/${t.detall.multimedia}" 
                             alt="${t.titol}"
                             sizes ="(max-width: 400px) ./img/${t.detall.sizemultimedia[0]} 400vw,
