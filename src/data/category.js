@@ -11,8 +11,8 @@ const category =
       "detall": {
         "text": "La primera lectura del guió de SUITS va tenir lloc a Wall Street, amb els actors principals reunits en un despatx d'advocats real. La localització va establir el to autèntic i sofisticat de la sèrie, ambientada en el món legal de Nova York. </br></br> En un hito que marcó el inicio de una serie que cautivaría a millones, la primera lectura del guión de Suits tuvo lugar en el emblemático escenario de Wall Street. </br></br> El elenco principal, encabezado por Gabriel Macht, Patrick J. Adams y Meghan Markle, se reunió en un auténtico despacho de abogados, estableciendo así el tono sofisticado y auténtico que caracterizaría a la serie ambientada en el competitivo mundo legal de Nueva York. Este evento, que tuvo lugar el 12 de febrero de 2010, no solo marcó el comienzo de la producción, sino que también simbolizó la colaboración única entre los actores y consultores legales reales. </br></br> La participación de miembros del reparto original, combinada con la asesoría de expertos legales, sentó las bases para la autenticidad que definiría Suits. Las primeras escenas emblemáticas grabadas durante esta lectura inicial se convertirían en momentos icónicos de la serie, consolidando así la posición de Suits como un referente en el género legal televisivo. Desde aquel día en Wall Street, la serie se embarcó en un viaje lleno de intriga, drama y éxitos, ganándose un lugar especial en el corazón de los fanáticos del drama legal.",
         "llistat": ["Participació de membres del repartiment original", "Col·laboració amb advocats consultors", "Enregistrament de les primeres escenes emblemàtiques"],
-        "multimedia": "harveymike234x350.png",
-        "sizemultimedia" : ["harveymike234x350.png", "harveymike282x500.png", "harveymike383x680.png"],
+        "multimedia": "harveymike198x350.png",
+        "sizemultimedia" : ["harveymike198x350.png", "harveymike282x500.png", "harveymike383x680.png"],
         "video": "https://www.youtube.com/embed/LFIvsHAhnWo",
         "authorvideo": "https://www.youtube.com/@motivacionyliderazgoparaau1366",
         "authorname": "@motivacionyliderazgoparaau1366"
@@ -119,8 +119,8 @@ const category =
     "detall": {
       "text": "In the virtual realm, Mike Ross, played by Patrick J. Adams, achieved a significant milestone as his fictional legal blog crossed one million subscribers. The online platform, featuring Ross's insights on legal cases and witty commentary, became a digital sensation. <br><br> Fans and legal enthusiasts alike praised the blog for its engaging content and unique perspective on the legal world. The scenes depicting Ross navigating the digital landscape highlighted the evolving role of technology in the legal profession, adding a modern twist to the SUITS narrative.",
       "llistat": ["Mike Ross's legal blog reaches one million subscribers", "Digital sensation in the online legal community", "Exploring technology's role in the legal world"],
-      "multimedia": "mikeross267x400.png",
-      "sizemultimedia" : ["mikeross267x400.png","mike534x800.png","mike1801x2700.png"],
+      "multimedia": "mikeross234x350.png",
+      "sizemultimedia" : ["mikeross234x350.png","mike534x800.png","mike1801x2700.png"],
       "video": "https://www.youtube.com/embed/c9CvlWxiQKA",
       "authorvideo": "https://www.youtube.com/@motivacionyliderazgoparaau1366",
       "authorname": "@motivacionyliderazgoparaau1366"
