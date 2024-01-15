@@ -11,7 +11,7 @@ var e,a,t,i,o;e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof se
                                 <picture>
                                     <source media="(max-width: 600px)" srcset="./img/${t.detall.sizemultimedia[0]}" />
                                     <source media="(max-width: 900px)" srcset="./img/${t.detall.sizemultimedia[1]}" />
-                                    <img class="detail-img" src="./img/${t.detall.sizemultimedia[2]}" alt="${t.data}" title="${t.titol}">
+                                    <img class="detail-img" loading="lazy" src="./img/${t.detall.sizemultimedia[2]}" alt="${t.data}" title="${t.titol}">
                                 </picture>
                                 <figcaption>${t.lloc}</figcaption>
                             </figure>
@@ -26,7 +26,7 @@ var e,a,t,i,o;e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof se
                     </section>
                     <section class="detail">
                         <div class="video">
-                            <iframe src="${t.detall.video}" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe src="${t.detall.video}"  loading="lazy" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <p>Video author: <a src="${t.detall.authorvideo}">${t.detall.authorname}</a>  </p>
                         </div>
                         <div class="related">

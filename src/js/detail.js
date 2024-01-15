@@ -27,7 +27,7 @@ function printDetail() {
                                 <picture>
                                     <source media="(max-width: 600px)" srcset="./img/${element.detall.sizemultimedia[0]}" />
                                     <source media="(max-width: 900px)" srcset="./img/${element.detall.sizemultimedia[1]}" />
-                                    <img class="detail-img" src="./img/${element.detall.sizemultimedia[2]}" alt="${element.data}" title="${element.titol}">
+                                    <img class="detail-img" loading="lazy" src="./img/${element.detall.sizemultimedia[2]}" alt="${element.data}" title="${element.titol}">
                                 </picture>
                                 <figcaption>${element.lloc}</figcaption>
                             </figure>
@@ -42,7 +42,7 @@ function printDetail() {
                     </section>
                     <section class="detail">
                         <div class="video">
-                            <iframe src="${element.detall.video}" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe src="${element.detall.video}"  loading="lazy" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <p>Video author: <a src="${element.detall.authorvideo}">${element.detall.authorname}</a>  </p>
                         </div>
                         <div class="related">
