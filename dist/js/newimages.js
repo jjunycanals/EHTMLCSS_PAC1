@@ -2,7 +2,7 @@ var e,a,t,i,o;e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof se
                     <h1 class="title-category">More images</h1>
                     <picture>   
                         <source media="(max-width: 600px)" srcset="./img/${t.galery[0]}" type="image/webp" />
-                        <img class="detail-img" loading="lazy" src="./img/${t.galery[0]}" alt="${t.data}" type="image/webp" title="${t.titol}"/>
+                        <img class="detail-img" src="./img/${t.galery[0]}" alt="${t.data}" type="image/webp" title="${t.titol}"/>
                     </picture>    
                 `:e.innerHTML+=`
                 <h1 class="title-category">More images</h1>
@@ -10,7 +10,7 @@ var e,a,t,i,o;e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof se
                     <source media="(max-width: 600px)" srcset="./img/${t.galery[0]}" type="image/png"/>
                     <source media="(max-width: 900px)" srcset="./img/${t.galery[1]}" type="image/png"/>
                     <source media="(max-width: 1040px)" srcset="./img/${t.galery[2]}" type="image/png" />
-                    <img class="detail-img"  loading="lazy" src="./img/${t.galery[3]}" alt="${t.data}" type="image/png" title="${t.titol}"/>
+                    <img class="detail-img" src="./img/${t.galery[3]}" alt="${t.data}" type="image/png" title="${t.titol}"/>
                 </picture>          
                 `)})}()});
 //# sourceMappingURL=newimages.js.map

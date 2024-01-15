@@ -26,7 +26,7 @@ var e,a,t,i,o;e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof se
                     </section>
                     <section class="detail">
                         <div class="video">
-                            <iframe src="${t.detall.video}" loading="lazy" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe src="${t.detall.video}" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <p>Video author: <a src="${t.detall.authorvideo}">${t.detall.authorname}</a>  </p>
                         </div>
                         <div class="related">
