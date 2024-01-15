@@ -543,6 +543,24 @@ h1 {
   width: 620px;
   height: 315px;
 }
+.video {
+  position: relative;
+  cursor: pointer;
+  max-width: 100%;
+  overflow: hidden;
+}
+.video-facade-img {
+  width: 80%;
+  height: auto;
+}
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+}
 .cat-link2 {
   display: block;
   text-decoration: none;

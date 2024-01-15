@@ -18,12 +18,12 @@ function printCat() {
                             alt="${element.titol}"
                             sizes ="(max-width: 400px) ./img/${element.detall.sizemultimedia[0]} 400vw,
                                     (max-width: 600px) ./img/${element.detall.sizemultimedia[1]} 600vw,
-                                    (max-width: 800px) ./img/${element.detall.sizemultimedia[2]} 800vw
+                                    (max-width: 800px) ./img/${element.detall.sizemultimedia[0]} 800vw
                                     "
                             srcset ="
                                 ./img/${element.detall.sizemultimedia[0]} 400w,
                                 ./img/${element.detall.sizemultimedia[1]} 600w,
-                                ./img/${element.detall.sizemultimedia[2]} 800w
+                                ./img/${element.detall.sizemultimedia[0]} 800w
                                 "
                         >
                         </div>

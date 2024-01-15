@@ -3,7 +3,8 @@ var footer = document.getElementById('foot');
 footer.innerHTML = `
 <div class="logo-footer">
     <a href="index.html" class="log">
-        <img    title="Logo de suites" 
+        <img    title="Logo de suites"
+                loading="lazy" 
                 alt="Logo amb una corbata en blanc i negre"
                 src="../img/logo.svg" 
                 sizes ="(max-width: 500) ../img/logo-footer-small.png 500px, 600w"

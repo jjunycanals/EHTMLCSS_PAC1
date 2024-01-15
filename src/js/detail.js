@@ -41,10 +41,12 @@ function printDetail() {
                         
                     </section>
                     <section class="detail">
-                        <div class="video">
-                            <iframe src="${element.detall.video}"  loading="lazy" frameborder="0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            <p>Video author: <a src="${element.detall.authorvideo}">${element.detall.authorname}</a>  </p>
+                        <div class="video" data-src="${element.detall.video}" data-title="${element.titol}" data-authorvideo="${element.detall.authorvideo}" data-authorname="${element.detall.authorname}";
+                        var authorname = $(this).data('authorname');>
+                            <img class="video-facade-img" loading="lazy" src="./img/${element.detall.sizemultimedia[0]}" alt="${element.data}" title="${element.titol}">
+                            <p class="play-button">▶ Play</p>
                         </div>
+                        
                         <div class="related">
                             <h3>Related content of the same category<h3>
                             <ul>
@@ -69,5 +71,19 @@ function relatedCategories (element, i) {
         }        
     });
     return cat;
-}
-document.addEventListener('DOMContentLoaded', () => {printDetail();});
+}    
+// document.addEventListener('DOMContentLoaded', () => {printDetail();});
+function loadYouTubeVideo() {
+    $('.video').on('click', function() {
+      var videoSrc = $(this).data('src');
+      var videoTitle = $(this).data('title');
+      var authorvideo = $(this).data('authorvideo');
+      var authorname = $(this).data('authorname');
+      $(this).html('<iframe src="' + videoSrc + '" title="' + videoTitle + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>Video author: <a src="' + authorvideo + '">' + authorname +'</a></p>');
+    });
+  }
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    printDetail();
+    loadYouTubeVideo();
+  });
